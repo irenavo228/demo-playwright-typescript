@@ -1,0 +1,31 @@
+{
+  "name": "demo-playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:local": "playwright test --TEST_ENV=local",
+    "test:prod": "playwright test --TEST_ENV=prod",
+    "test:ui": "playwright test --ui",
+    "test:trace": "playwright show-trace",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.3.0",
+    "cross-env": "^10.0.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.2",
+    "googleapis": "^159.0.0",
+    "luxon": "^3.7.1",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.14.4"
+  }
+}

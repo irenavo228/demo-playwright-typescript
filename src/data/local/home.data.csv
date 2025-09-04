@@ -1,0 +1,4 @@
+Code,Scenario,Steps
+C003,View Product Detail and Add to Cart,Go to Home;Select Category|category=Phones;Select Product|product=Samsung galaxy s6;Add to Cart;Go to Home
+C004,Check Home Title,Check Home Title|text=PRODUCT STORE
+C005,View Cart,View Cart
